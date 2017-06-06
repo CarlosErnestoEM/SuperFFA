@@ -1,0 +1,184 @@
+######################################################################
+#                      SUPER FFA BY POLLOGAMER                       #
+#                    BuildFFA, FFA CLASSIC, COMBOFFA                 #
+######################################################################
+
+#MySQL in progress
+TYPE: YML
+
+MySQL:
+ host: 0.0.0.0
+ port: 3306
+ database: superffa
+ username: root
+ password: yourpassword
+
+dropGoldenHeadOnBuildFFA: true
+dropGoldenApple: true
+disablefalldamage: true
+disablefoodlevel: true
+disableitemdrop: true
+disablepickupitem: false
+disablerain: true
+disablejoinmessage: false
+disableleavemessage: false
+disabledeathmessage: true
+disableblockbreak: true
+#In Seconds
+removeblocksinterval: 3
+
+
+#Variables %player%, %message%,%prefix% NEED PERMISSIONSEX
+chat: true
+chat_format: '%prefix% &7%player%&f: &f%message%'
+
+########################
+#      Scoreboard      #
+########################
+scoreboard:
+  name: '&a&lAdvanced FFA'
+  refresh-interval: 3
+#Variables %player%, %ping%, %kills%, %deaths%, %kdr%, %mode%, %online%, %empty%
+  #YOU CAN ADD MORE LINES!
+  lines:
+   - '%empty%'
+   - '&6&l%player%'
+   - '%empty%&6&6'
+   - '&cPing &a%ping%'
+   - '&cDeaths &a%deaths%'
+   - '&cKills &a%kills%'
+   - '&cKDR &a%kdr%'
+   - '%empty%&6'
+   - '&cMode: &a%mode% '
+   - '&cBy PolloGamer'
+   - '&emc.yourserverip.com'
+
+########################
+#       MESSAGES       #
+########################
+
+prefix: '&6&lSuperFFA &c'
+
+join: '&c%player% &chas joined to the &cSuperFFA!'
+leave: '&c%player% &chas leave to the &cSuperFFA!'
+
+no-permission: '&cYou don´t have permission!'
+set-spawn: '&aYou marked spawn the world'
+golden-head: '&cGolden Head'
+player-killed: '&cYou killed to %name%!'
+player-death: '&cYou killed by %name% with %health% life!'
+player-shot: '%player% is now at &c%health%!'
+modeselector: '&e&lMode selector'
+modeselector-id: 339
+ping: '&6Your ping is: %ping%'
+ping-usage: '&cUsage /ping or /ping <Player>'
+ping-no-online: '&c%player% is not online'
+ping-other: '&6Ping of %player% is: %ping%'
+plugin-reloaded: '&6The plugin has been reloaded!'
+plugin-reloaded-error: '&6The plugin cannot has been reloaded!'
+editkit-usage: '&cUsage /editkit (FFA-BuildUHC-ComboFFA) or /editkit gui'
+editkit-saved: '&aYou save the kit'
+editkit-editing: '&aA player is editing a kit! Wait a moment'
+stats-usage: '&cUsage /stats or /stats <Player>'
+stats:
+   - '&6&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+   - '      Plugin by PolloGamer'
+   - '&cPlayer: &f%player%'
+   - '&cKills: &a%kills%'
+   - '&cDeaths: &a%deaths%'
+   - ''
+   - '&6&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+
+
+GUI:
+ MenuModes:
+  title: '&a&lSUPER FFA'
+  size: 9
+  FFA:
+   displayname: '&aClassic FFA'
+   slot: 2
+   id: 267
+   data: 1
+   lore:
+    - ''
+    - '&cJoin to the Classic FFA!'
+    - '&cPlayers in game: &a%players%'
+    - ''
+  BuildFFA:
+   displayname: '&aBuildFFA'
+   slot: 4
+   id: 276
+   data: 1
+   lore:
+    - ''
+    - '&cJoin to the BuildFFA!'
+    - '&cPlayers in game: &a%players%'
+    - ''
+  ComboFFA:
+   displayname: '&aCombo FFA'
+   slot: 6
+   id: 267
+   data: 1
+   lore:
+    - ''
+    - '&cJoin to the Combo FFA!'
+    - '&cPlayers in game: &a%players%'
+    - ''
+ EditKit:
+  title: '&aSelect the kit to edit'
+  size: 9
+  FFA:
+    displayname: '&aClassic FFA'
+    slot: 2
+    id: 267
+    data: 1
+  BuildFFA:
+   displayname: '&aBuildFFA'
+   slot: 4
+   id: 276
+   data: 1
+  ComboFFA:
+   displayname: '&aCombo FFA'
+   slot: 6
+   id: 267
+   data: 1
+ SaveKit:
+  title: '&aKit editor'
+  size: 9
+  CancelKit:
+   displayname: '&cCancel kit edit'
+   slot: 3
+   id: 35
+   data: 14
+  SaveKit:
+   displayname: '&aClick to save the kit'
+   slot: 5
+   id: 35
+   data: 5
+
+########################
+#       LOCATIONS      #
+########################
+
+#NAME OF THE WORLDS IS FFA,BUILDFFA,COMBOFFA
+
+FFA:
+ x: 0
+ y: 0
+ z: 0
+ pitch: 0.00000000
+ yaw: 0.0000000000
+
+BuildFFA:
+ x: 0
+ y: 0
+ z: 0
+ pitch: 0.00000000
+ yaw: 0.0000000000
+
+ComboFFA:
+ x: 0
+ y: 0
+ z: 0
+ pitch: 0.00000000
+ yaw: 0.0000000000

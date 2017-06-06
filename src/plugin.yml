@@ -1,0 +1,15 @@
+name: SuperFFA
+version: 1.0
+author: PolloGamer
+main: Principal
+commands:
+   ping:
+    description: See your ping
+   superffa:
+    description: Command for configure your spawns
+   ffamenu:
+    description: Open FFA Modes Menu
+   stats:
+    description: See your stats or the other player
+   editkit:
+    description: Command for edit your kit

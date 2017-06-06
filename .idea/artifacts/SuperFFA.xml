@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SuperFFA">
+    <output-path>$PROJECT_DIR$/out/artifacts/SuperFFA</output-path>
+    <root id="archive" name="SuperFFA.jar">
+      <element id="module-output" name="SuperFFA" />
+    </root>
+  </artifact>
+</component>
